@@ -4,14 +4,15 @@ body {
     box-sizing: border-box;
 }
 
-* {
+
+/* * {
     border: 2px solid black;
-}
+} */
 
 .hero {
     width: 50%;
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
 }
 
 header {
@@ -21,6 +22,30 @@ header {
     min-width: 100vh;
     background-image: url(../img/MDStuinen4.jpg);
     background-size: cover;
+}
+
+nav {
+    background-color: white;
+    color: green;
+}
+
+li {
+    list-style: none;
+    text-align: end;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    margin-right: 25px;
+    ;
+}
+
+a:hover {
+    background-color: #A4C849;
+    padding: 10px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 800px) {
