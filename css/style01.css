@@ -37,7 +37,7 @@ li {
 
 a {
     text-decoration: none;
-    color: green;
+    color: #A4C849;
     margin-right: 25px;
     ;
 }
@@ -46,6 +46,7 @@ a:hover {
     background-color: #A4C849;
     padding: 10px;
     z-index: 1;
+    color: white;
 }
 
 @media screen and (max-width: 800px) {
